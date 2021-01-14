@@ -1,13 +1,15 @@
 let buttons = document.querySelectorAll(".products__button");
 
+const SUCCES_STATUS = 200;
+
 for(let i = 0; i < buttons.length; i++) {
   let button = buttons[i];
   button.addEventListener("click", function (evt) {
     evt.preventDefault();
     button.classList.add("lds-dual-ring");
-    fetch('https://reqres.in/api/products/3')
+    axios.get('https://reqres.in/api/products/3')
     .then(response => {
-      if(response.ok) {
+      if(response.status === SUCCES_STATUS) {
         sessionStorage.setItem(i, i);
         button.classList.remove("lds-dual-ring");
         button.textContent = "В корзине";

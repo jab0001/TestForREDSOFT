@@ -1,7 +1,6 @@
 {
-  "name": "mishka-17",
-  "version": "17.0.0",
-  "private": true,
+  "name": "redsoft-test",
+  "version": "1.0.0",
   "description": "REDSOFT Test",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
