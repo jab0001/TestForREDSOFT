@@ -1,0 +1,97 @@
+.products__list {
+  margin-top: 38px;
+  margin-bottom: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.products__item {
+  min-height: 328px;
+  max-width: 280px;
+  border: 1px solid #E1E1E1;
+  box-sizing: border-box;
+}
+
+.products__title {
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.products__item-name {
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+
+  width: 220px;
+  margin-left: 24px;
+  margin-top: 15px;
+}
+
+.products__container {
+  margin: 22px 24px 22px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.products__old-price {
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #A0A0A0;
+  text-decoration: line-through;
+}
+
+.products__price {
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.products__sold {
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-top: 11px;
+}
+
+.products__button {
+  width: 118px;
+  height: 48px;
+  border: none;
+
+  background-color: #382E2B;
+  cursor:pointer;
+
+  color: #F4F6F9;
+
+  &:hover {
+    background-color: #776763;
+  }
+
+  &--sold {
+    padding: 15px 10px 15px 30px;
+    background: #5B3A32 url("../../img/Vector.svg") no-repeat 10px 15px;
+  }
+
+  &:disabled {
+    background: #C1B4B1;
+  }
+}
+
+.products__price-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

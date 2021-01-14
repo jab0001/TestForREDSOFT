@@ -1,0 +1,69 @@
+.page-footer {
+  width: 100%;
+  background-color: #ECEAEA;
+}
+
+.page-footer__wrapper {
+  max-width: 1216px;
+  min-height: 96px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.page-footer__list {
+  width: 520px;
+  margin-top: 38px;
+  margin-left: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-footer__link {
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #555555;
+
+  &:hover {
+    color: #bbbfd7;
+  }
+}
+
+.page-footer__list-contacts {
+  width: 450px;
+  margin-left: 153px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-footer__logo {
+  margin-top: 24px;
+}
+
+.page-footer__item-contacts {
+  display: flex;
+  margin-top: 38px;
+}
+
+.page-footer__icon {
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+.page-footer__adress,
+.page-footer__phone {
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #555555;
+
+  &:hover {
+    color: #bbbfd7;
+  }
+}
