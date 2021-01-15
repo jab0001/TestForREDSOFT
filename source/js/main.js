@@ -2,9 +2,8 @@ let buttons = document.querySelectorAll(".products__button");
 
 const SUCCES_STATUS = 200;
 
-for(let i = 0; i < buttons.length; i++) {
-  let button = buttons[i];
-  button.addEventListener("click", function (evt) {
+buttons.forEach((button, i) => {
+  button.addEventListener("click", (evt) => {
     evt.preventDefault();
     button.classList.add("lds-dual-ring");
     axios.get('https://reqres.in/api/products/3')
@@ -26,4 +25,4 @@ for(let i = 0; i < buttons.length; i++) {
       button.classList.add("products__button--sold");
     }
   };
-};
+});
