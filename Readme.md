@@ -2,9 +2,7 @@
 
 Для запуска сервера:
 
-npm install
-  ||
-  \/
+npm install 
 npm start
 
 
