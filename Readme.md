@@ -2,8 +2,7 @@
 
 Для запуска сервера:
 
-npm install 
-npm start
+npm install -> npm start
 
 
 Для сборки проекта в production:
